@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div id="app">
+            <h1>TO DO LIST</h1>
+
+            <div class="first">
+                <label for="task">Enter your task</label><br>
+                <input type="text" id="inputItem" placeholder="Enter Task"> <br>
+            </div>
+
+            <div class="second">
+                <label for="day">Enter days to complete</label> <br>
+                <input type="text" id="task-day" placeholder="Enter Day"> <br>
+            </div>
+            
+            <div  class="btn">
+                <input type="button" value="Enter" id="btn-add-todo">
+            </div>
+            
+            <div class="beautiful">
+                <table id="list" class="list"></table>
+
+                <div class="noti">
+                    <span id="notification"></span>
+                </div>   
+            </div>
+             
+    </div>
+</body>
+</html>

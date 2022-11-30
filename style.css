@@ -1,0 +1,137 @@
+body {
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+.list tr,
+.list td,
+.list th {
+    border: 1px solid black;
+    height: 30px;
+}
+
+.beautiful {
+    margin-top: -15px;
+}
+
+#app {
+    width: 80%;
+    height: 2000px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+
+}
+
+label {
+    /* padding-left: 20%; */
+    font-size: 20px;
+}
+
+#inputItem,
+#task-day {
+    /* margin-left: 20%; */
+    margin-top: 8px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.first {
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.second {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#btn-add-todo {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+
+.btn {
+    width: fit-content;
+    margin: 72.8px auto;
+}
+
+.list {
+    margin: 0 auto;
+}
+
+.list td,
+.list th {
+    width: 45%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.noti {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+#notification {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+@media screen and (max-width:550px) {
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    #btn-add-todo {
+        font-size: 16px;
+        width: 80px;
+        height: 30px;
+        background-color: green;
+        color: white;
+    }
+
+    .btn {
+        width: fit-content;
+        margin: 20px auto;
+    }
+
+    .list td,
+    .list th {
+        width: 45%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .noti {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    #notification {
+        font-size: 16px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .beautiful {
+        margin-top: 5px;
+    }
+}
